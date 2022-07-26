@@ -76,8 +76,7 @@ body {
   color: black; }
 
 section {
-  padding: 40px 0;
-  margin-bottom: 40px; }
+  padding: 40px 0; }
 
 .header {
   background: skyblue;
@@ -336,7 +335,7 @@ hr {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 1024px;
+  max-width: 882px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -371,7 +370,7 @@ hr {
   line-height: 1.2em;
   color: white; }
   .products__link svg {
-    width: 34px;
+    width: 42px;
     height: 34px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -411,8 +410,8 @@ hr {
         -ms-flex-align: center;
             align-items: center;
     padding: 12px 24px;
-    font-size: 1.3em;
-    line-height: 1.1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
     font-weight: 600;
     color: white;
     border-radius: 50px;

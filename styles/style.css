@@ -75,9 +75,6 @@ body {
   line-height: 1em;
   color: black; }
 
-section {
-  padding: 40px 0; }
-
 .header {
   background: skyblue;
   min-height: 50px; }
@@ -599,7 +596,7 @@ hr {
           align-items: center;
   max-width: 100%;
   width: 100%;
-  margin: 0 40px 40px; }
+  margin: 0 30px 30px; }
 
 .counter__count {
   font-size: 2.3em;
@@ -703,13 +700,14 @@ hr {
 
 .info__text {
   max-width: 1024px;
-  font-size: 1.3em;
+  font-size: 1.15em;
   line-height: 1.1em; }
 
 .form-section .form {
   max-width: 575px;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 40px 0; }
 
 .form fieldset {
   display: -webkit-box;

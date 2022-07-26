@@ -475,11 +475,11 @@ hr {
   margin: 20px 0; }
   .steps__item::before {
     content: counter(itemCount) ".";
-    min-width: 80px;
+    min-width: 60px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 1em;
     font-weight: 900;
     color: #65A2EF;
@@ -608,7 +608,7 @@ hr {
   color: #65A2EF; }
 
 .counter__title {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1em; }
 
 .benefits {
@@ -633,8 +633,8 @@ hr {
             justify-content: center;
     width: 100%;
     height: auto;
-    font-size: 1.2em;
-    line-height: 1.2em;
+    font-size: 1em;
+    line-height: 1em;
     font-weight: 900; }
   .benefits__item {
     position: relative;
@@ -703,8 +703,8 @@ hr {
 
 .info__text {
   max-width: 1024px;
-  font-size: 1.5em;
-  line-height: 1.2em; }
+  font-size: 1.3em;
+  line-height: 1.1em; }
 
 .form-section .form {
   max-width: 575px;
@@ -846,7 +846,7 @@ footer {
 
 @media (min-width: 560px){
       .steps__item::before {
-        min-width: 125px; } }
+        min-width: 100px; } }
 
 @media (min-width: 600px){
     .hero__content, .hero__banner {
@@ -871,11 +871,11 @@ footer {
 
 @media (min-width: 1024px){
     .hero__list {
-      font-size: 1.2em; }
+      font-size: 1.3em; }
     .steps__list {
       font-size: 1.3em; }
       .benefits__list {
-        font-size: 1.5em; } }
+        font-size: 1.3em; } }
 
 @supports (-webkit-appearance:none){
 .hero__item:before{background:url("../icons/check.svg") center/contain no-repeat}

@@ -16,13 +16,13 @@
 
 <!-- STYLESHEET -->
 <link rel="stylesheet" href="./styles/AOS.min.css" type="text/css">
-<link rel="stylesheet" href="./styles/style.css?v4" type="text/css">
+<link rel="stylesheet" href="./styles/style.css?v5" type="text/css">
 
 <!-- SCRIPTS -->
 <script src="./scripts/countUp.min.js" defer></script>
 <script src="./scripts/parallax.tilt.min.js" defer></script>
 <script src="./scripts/AOS.min.js" defer></script>
-<script src="./scripts/main.min.js?v4" defer></script>
+<script src="./scripts/main.min.js?v5" defer></script>
 
 </head>
 
@@ -1387,18 +1387,18 @@
             <fieldset>
                 <legend class="page-title">Войдите в топ популярных уже сейчас</legend>
 
-                <div class="form__row">
-                    <input type="text" class="input" value="" name="login" placeholder="Ваш логин на сайте"
-                        title="Ваш логин на сайте">
-                    <input type="hidden" name="user_id" value="1142">
-                    <input type="hidden" name="userStatus" value="user">
+                <input type="hidden" class="input" value="" name="login" placeholder="Ваш логин на сайте"
+                    title="Ваш логин на сайте">
+                <input type="hidden" name="user_id" value="1142">
+                <input type="hidden" name="userStatus" value="user">
 
+                <div class="form__row">
                     <input type="text" class="input" value="" name="email"
                         placeholder="Укажите действующий e-mail, на него вы получите ответ."
                         title="Укажите действующий e-mail, на него вы получите ответ." required>
                 </div>
 
-                <input type="text" class="input" value="" name="message_theme" placeholder="Тема сообщения"
+                <input type="hidden" class="input" value="" name="message_theme" placeholder="Тема сообщения"
                     title="Тема сообщения" required>
 
                 <textarea name="message" placeholder="Ваше сообщение" title="Ваше сообщение" required></textarea>

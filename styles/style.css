@@ -456,8 +456,8 @@ hr {
           flex-direction: column;
   max-width: 860px;
   width: 100%;
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1em;
+  line-height: 1em;
   font-weight: 900;
   counter-reset: itemCount; }
 
@@ -707,7 +707,7 @@ hr {
   line-height: 1.2em; }
 
 .form-section .form {
-  max-width: 800px;
+  max-width: 575px;
   width: 100%;
   margin: 0 auto; }
 
@@ -720,22 +720,25 @@ hr {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%; }
+  .form fieldset legend {
+    text-align: start; }
   .form fieldset input,
   .form fieldset textarea {
     max-width: 100%;
     width: 100%;
-    min-height: 50px;
+    min-height: 39px;
     -webkit-box-shadow: 0 0 2px 2px #65A2EF;
             box-shadow: 0 0 2px 2px #65A2EF;
-    margin: 3px 3px 40px;
-    border-radius: 40px;
-    padding: 1em 40px;
-    font-size: 1.5em;
-    line-height: 1.3em;
+    margin: 3px 3px 30px;
+    border-radius: 30px;
+    padding: 0.5em 30px;
+    font-size: 1em;
+    line-height: 1em;
     font-weight: 600; }
   .form fieldset textarea {
-    max-width: 800px;
-    min-height: 200px; }
+    max-width: 100%;
+    min-height: 146px;
+    padding: 30px; }
 
 .form__row {
   display: -webkit-box;
@@ -747,13 +750,15 @@ hr {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%; }
-  .form__row input {
+  .form__row input:not([type="hidden"]) {
     min-width: 280px !important;
     max-width: calc(50% - 20px) !important;
     width: 100%; }
+  .form__row input:not([type="hidden"]):first-child:last-child {
+    max-width: 100% !important; }
 
 .form__btns {
-  margin: 15px 0;
+  margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -771,7 +776,7 @@ hr {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50%;
             flex: 1 1 50%;
-    font-size: 16px; }
+    font-size: 1em; }
   .form__btns button,
   .form__btns a {
     display: -webkit-inline-box;
@@ -784,8 +789,8 @@ hr {
         -ms-flex-align: center;
             align-items: center;
     padding: 12px 24px;
-    font-size: 1.3em;
-    line-height: 1.1em;
+    font-size: 1.5em;
+    line-height: 1.2em;
     font-weight: 600;
     color: white;
     border-radius: 50px;
@@ -868,7 +873,7 @@ footer {
     .hero__list {
       font-size: 1.2em; }
     .steps__list {
-      font-size: 1.5em; }
+      font-size: 1.3em; }
       .benefits__list {
         font-size: 1.5em; } }
 
